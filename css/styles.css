@@ -9,3 +9,15 @@
 	border: 1px solid rgba(86, 61, 124, .2);
 	padding: 10px;
 }
+
+
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
